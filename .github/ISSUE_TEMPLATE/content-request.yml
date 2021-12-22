@@ -1,12 +1,12 @@
 name: Content Request
 description: Request creation of new content that you want to see available on Postman platforms. 
-title: "<title>"
+title: "Content Title Goes Here"
 labels: "content"
 body:
 - type: checkboxes
   attributes:
     label: Is there an existing request for this content?
-    description: Please search to see if a content request already exists. [Github Issue Tracker](https://github.com/postmanlabs/devrel-content/issues)
+    description: Please search to see if a content request already exists. [Content Request Tracker](https://github.com/postmanlabs/devrel-content/issues)
     options:
     - label: I have searched the existing issues for this feature request
       required: true
@@ -27,6 +27,8 @@ body:
       - Video
       - Blog
       - Tutorial
+  validations:
+    required: true
 - type: checkboxes
   id: terms
   attributes:
