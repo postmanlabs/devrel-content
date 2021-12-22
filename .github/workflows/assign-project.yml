@@ -4,7 +4,7 @@ on:
   issues:
     types: [labeled]
 env:
-  MY_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   assign_to_project:
@@ -15,5 +15,5 @@ jobs:
       uses: srggrs/assign-one-project-github-action@1.2.0
       if: contains(github.event.issue.labels.*.name, 'content')
       with:
-        project: 'https://github.com/orgs/postmanlabs/projects/11'
-        column_name: 'Todo'
+        project: 'https://github.com/postmanlabs/devrel-content/projects/1'
+        column_name: 'To do'
