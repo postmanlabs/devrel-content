@@ -1,0 +1,37 @@
+name: Content Request
+description: Request creation of new content that you want to see available on Postman platforms. 
+title: "<title>"
+labels: "content"
+body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing request for this content?
+    description: Please search to see if a content request already exists. [Github Issue Tracker](https://github.com/postmanlabs/devrel-content/issues)
+    options:
+    - label: I have searched the existing issues for this feature request
+      required: true
+- type: textarea
+  attributes:
+    label: Describe the content you'd like to see
+    description: |
+      A clear and concise description of the content needed, the persona.
+  validations:
+    required: true
+- type: dropdown
+  id: type
+  attributes:
+    label: Type of content needed
+    multiple: true
+    options:
+      - Collection
+      - Video
+      - Blog
+      - Tutorial
+- type: checkboxes
+  id: terms
+  attributes:
+    label: Code of Conduct
+    description: By submitting this issue, you agree to follow our [Code of Conduct](https://www.postman.com/legal/community-code-of-conduct/)
+    options:
+      - label: I agree to follow this project's Code of Conduct
+        required: true
