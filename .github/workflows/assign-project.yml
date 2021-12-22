@@ -1,0 +1,19 @@
+name: Auto Assign Issues to Projects
+
+on:
+  issues:
+    types: [labeled]
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  assign_to_project:
+    runs-on: ubuntu-latest
+    name: Assign issue to project
+    steps:
+    - name: Assign issues with content label to GitHub Project
+      uses: srggrs/assign-one-project-github-action@1.2.0
+      if: contains(github.event.issue.labels.*.name, 'content')
+      with:
+        project: 'https://github.com/postmanlabs/devrel-content/projects/1'
+        column_name: 'To do'
