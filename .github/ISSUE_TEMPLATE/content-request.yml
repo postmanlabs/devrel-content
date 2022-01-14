@@ -3,13 +3,6 @@ description: Request creation of new content that you want to see available on P
 title: "Content Title Goes Here"
 labels: "content"
 body:
-- type: checkboxes
-  attributes:
-    label: Is there an existing request for this content?
-    description: Please search to see if a content request already exists. [Content Request Tracker](https://github.com/postmanlabs/devrel-content/issues)
-    options:
-    - label: I have searched the existing issues for this feature request
-      required: true
 - type: textarea
   attributes:
     label: Describe the content you'd like to see
