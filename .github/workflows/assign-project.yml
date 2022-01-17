@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Assign issue to project
     steps:
-    - name: Assign issues with content label to Public Project
+    - name: Assign new issues to Public Project
       uses: srggrs/assign-one-project-github-action@1.2.0
       with:
         project: 'https://github.com/postmanlabs/devrel-content/projects/1'
