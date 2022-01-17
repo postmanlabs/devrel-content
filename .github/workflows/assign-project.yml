@@ -2,18 +2,16 @@ name: Auto Assign Issues to Projects
 
 on:
   issues:
-    types: [labeled]
+    types: [opened]
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+  
 jobs:
-  assign_to_project:
+  createCard:
     runs-on: ubuntu-latest
-    name: Assign issue to project
     steps:
-    - name: Assign issues with content label to Public Project
-      uses: srggrs/assign-one-project-github-action@1.2.0
-      if: contains(github.event.issue.labels.*.name, 'content')
-      with:
-        project: 'https://github.com/postmanlabs/devrel-content/projects/1'
-        column_name: 'To do'
+      - name: Create or Update Project Card
+        uses: peter-evans/create-or-update-project-card@v1
+        with:
+          project-name: 'https://github.com/postmanlabs/devrel-content/projects/1'
+          column-name: 'To do'
