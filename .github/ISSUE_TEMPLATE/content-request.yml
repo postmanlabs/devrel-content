@@ -23,7 +23,7 @@ body:
   id: video-type
   attributes:
     label: If the request is for a video, indicate which type?
-    multiple: true
+    multiple: false
     options:
       - How-To
       - Exploratory
