@@ -22,11 +22,12 @@ body:
 - type: dropdown
   id: video-type
   attributes:
-    label: If the content is a video, which type?
+    label: If the request is for a video, indicate which type?
     multiple: true
     options:
       - How-To
       - Exploratory
       - Level-Up
+      - Other
   validations:
     required: false
