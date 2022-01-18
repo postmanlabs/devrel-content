@@ -22,7 +22,7 @@ body:
 - type: dropdown
   id: video-type
   attributes:
-    label: If the request is for a video, indicate which type?
+    label: If the request is for a video, indicate which type:
     multiple: false
     options:
       - How-To
