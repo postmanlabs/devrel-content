@@ -20,7 +20,7 @@ body:
       - Blog
       - Tutorial
 - type: dropdown
-  id: type
+  id: video-type
   attributes:
     label: If the content is a video, which type?
     multiple: true
