@@ -19,5 +19,14 @@ body:
       - Video
       - Blog
       - Tutorial
+- type: dropdown
+  id: type
+  attributes:
+    label: If the content is a video, which type?
+    multiple: true
+    options:
+      - How-To
+      - Exploratory
+      - Level-Up
   validations:
-    required: true
+    required: false
