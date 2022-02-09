@@ -19,6 +19,8 @@ body:
       - Video
       - Blog
       - Tutorial
+      - Talk
+      - Workshop
 - type: dropdown
   id: video-type
   attributes:
