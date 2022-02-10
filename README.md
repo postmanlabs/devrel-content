@@ -21,6 +21,7 @@ This repository is used by the Developer Relations team at Postman to track requ
 | Blog  |   | [Postman Blog](https://blog.postman.com/)<br/>[Better Practices](https://medium.com/better-practices)  |
 | Collection  |   | [Postman Answers Workspace](https://www.postman.com/postman/workspace/postman-answers)  |
 | Tutorial  |   |   |
+| Talk  | Any meetup or event that you're speaking at. Could be a workshop, Postman demo, lightning talk, etc  |   |
 
 ### Product roadmap
 Keep tabs on new and upcoming releases on [the product roadmap](https://github.com/postmanlabs/postman-app-support/projects/45?fullscreen=true). Track current issues and log new ones [on GitHub](https://github.com/postmanlabs/postman-app-support/issues). Also submit new feature requests [here](https://github.com/postmanlabs/postman-app-support/issues?q=is%3Aopen+is%3Aissue+label%3AFeature).
