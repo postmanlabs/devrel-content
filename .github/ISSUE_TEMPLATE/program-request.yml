@@ -1,0 +1,70 @@
+name: Program Request
+description: Request a creation, general change or activity on the programs part of DevRel. 
+title: "Program Request Goes Here"
+body:
+- type: textarea
+  attributes:
+    label: Describe the creation, change or activity you'd like to see
+    description: |
+      A clear and concise description of the work needed to make this happen.
+  validations:
+    required: true
+- type: dropdown
+  id: type
+  attributes:
+    label: Program
+    multiple: true
+    options:
+      - Supernova
+      - Event Sponsorship
+      - Event Prioritization
+      - Postman Blog
+      - Non-Profit
+      - Reporting (Trip Reports, CfPs, Speaking)
+- type: dropdown
+  id: supernova-type
+  attributes:
+    label: If the request is of type Supernova, please categorize further here.
+    multiple: false
+    options:
+      - Interaction
+      - Website 
+      - Promotion
+      - Operations
+  validations:
+    required: false
+    
+- type: dropdown
+  id: sponsorship-type
+  attributes:
+    label: If the request is of type Sponsorships, please categorize further here.
+    multiple: false
+    options:
+      - Pipeline
+      - Operations
+  validations:
+    required: false
+
+- type: dropdown
+  id: prioritization-type
+  attributes:
+    label: If the request is of type Event Prioritization, please categorize further here.
+    multiple: false
+    options:
+      - Sourcing
+      - Operations
+  validations:
+    required: false
+    
+- type: dropdown
+  id: reporting-type
+  attributes:
+    label: If the request is of type Reporting, please categorize further here.
+    multiple: false
+    options:
+      - Call for Proposals Airtable
+      - Trip Reports Airtable
+      - Orbit
+      - Looker
+  validations:
+    required: false
