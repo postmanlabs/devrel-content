@@ -13,15 +13,17 @@ body:
   id: type
   attributes:
     label: Program
-    multiple: true
+    multiple: false
     options:
       - Supernova
       - Event Sponsorship
       - Event Prioritization
-      - Postman Blog
+      - Postman-Blog
       - Non-Profit
       - Reporting (Trip Reports, CfPs, Speaking)
       - Other
+  validations:
+    required: true
 - type: dropdown
   id: category
   attributes:
