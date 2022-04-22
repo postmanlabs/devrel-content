@@ -23,7 +23,7 @@ body:
       - Reporting (Trip Reports, CfPs, Speaking)
       - Other
 - type: dropdown
-  id: type
+  id: category
   attributes:
     label: Please categorize your Isue by selecting one or more of these types.
     multiple: true
