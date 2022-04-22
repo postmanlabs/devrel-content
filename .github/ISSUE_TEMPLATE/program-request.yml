@@ -21,49 +21,21 @@ body:
       - Postman Blog
       - Non-Profit
       - Reporting (Trip Reports, CfPs, Speaking)
+      - Other
 - type: dropdown
-  id: supernova-type
+  id: type
   attributes:
-    label: If the request is of type Supernova, please categorize further here.
-    multiple: false
+    label: Please categorize your Isue by selecting one or more of these types.
+    multiple: true
     options:
       - Interaction
       - Website 
       - Promotion
-      - Operations
-  validations:
-    required: false
-    
-- type: dropdown
-  id: sponsorship-type
-  attributes:
-    label: If the request is of type Sponsorships, please categorize further here.
-    multiple: false
-    options:
       - Pipeline
       - Operations
-  validations:
-    required: false
-
-- type: dropdown
-  id: prioritization-type
-  attributes:
-    label: If the request is of type Event Prioritization, please categorize further here.
-    multiple: false
-    options:
       - Sourcing
-      - Operations
-  validations:
-    required: false
-    
-- type: dropdown
-  id: reporting-type
-  attributes:
-    label: If the request is of type Reporting, please categorize further here.
-    multiple: false
-    options:
-      - Call for Proposals Airtable
-      - Trip Reports Airtable
+      - Call for Proposals
+      - Trip Reports
       - Orbit
       - Looker
   validations:
