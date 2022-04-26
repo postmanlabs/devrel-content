@@ -1,6 +1,7 @@
 name: Program Request
 description: Request a creation, general change or activity on the programs part of DevRel. 
 title: "Program Request Goes Here"
+labels: programs
 body:
 - type: textarea
   attributes:
