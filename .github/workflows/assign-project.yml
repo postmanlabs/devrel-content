@@ -2,7 +2,7 @@ name: Auto Assign Issues to Projects
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -12,6 +12,7 @@ jobs:
     name: Assign issue to project
     steps:
     - name: Assign new issues to Content Project
+      if: contains(github.event.issue.labels.*.name, 'content')
       uses: srggrs/assign-one-project-github-action@1.2.0
       with:
         project: 'https://github.com/postmanlabs/devrel-content/projects/1'
