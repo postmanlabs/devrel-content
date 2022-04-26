@@ -22,7 +22,7 @@ body:
       - Postman-Blog
       - Non-Profit
       - Reporting (Trip Reports, CfPs, Speaking)
-      - Other
+      - Other Program
   validations:
     required: true
 - type: dropdown
