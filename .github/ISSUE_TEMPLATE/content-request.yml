@@ -1,6 +1,7 @@
 name: Content Request
 description: Request creation of new content that you want to see available on Postman platforms. 
 title: "Content Title Goes Here"
+labels: content
 body:
 - type: textarea
   attributes:
