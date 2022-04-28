@@ -28,7 +28,7 @@ body:
 - type: dropdown
   id: category
   attributes:
-    label: Please categorize your Isue by selecting one or more of these types.
+    label: Please categorize your Issue by selecting one or more of these types.
     multiple: true
     options:
       - Interaction
