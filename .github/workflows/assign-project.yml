@@ -16,7 +16,7 @@ jobs:
       uses: srggrs/assign-one-project-github-action@1.2.0
       with:
         project: 'https://github.com/postmanlabs/devrel-content/projects/1'
-        column_name: 'To do'
+        column_name: 'Backlog'
     - name: Assign new issues to Programs Project
       if: contains(github.event.issue.labels.*.name, 'programs')
       uses: srggrs/assign-one-project-github-action@1.2.0
