@@ -15,4 +15,4 @@ jobs:
       uses: srggrs/assign-one-project-github-action@1.2.1
       if: github.event.action == 'opened'
       with:
-        project: 'https://github.com/srggrs/assign-one-project-github-action/projects/11'
+        project: 'https://github.com/orgs/postmanlabs/projects/11'
