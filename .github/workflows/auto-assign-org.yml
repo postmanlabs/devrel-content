@@ -16,3 +16,4 @@ jobs:
       if: github.event.action == 'opened'
       with:
         project: 'https://github.com/orgs/postmanlabs/projects/11'
+        column_name: Backlog
