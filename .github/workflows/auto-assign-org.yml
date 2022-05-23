@@ -14,3 +14,4 @@ jobs:
         with:
           project-url: https://github.com/orgs/postmanlabs/projects/11
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          labeled: content, programs
