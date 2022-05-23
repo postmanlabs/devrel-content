@@ -1,4 +1,4 @@
-name: Add issues to DevRel Content project
+name: Add issues to DevRel project
 
 on:
   issues:
