@@ -10,7 +10,7 @@ _Manage all of your APIs in Postman, with the industry's most complete API platf
 
 This repository is used by the Developer Relations team at Postman to track requests and progress on new content. 
 
-- To create a content request, [open a new issue](https://github.com/postmanlabs/devrel-content/issues/new/choose)
+- To create a new request, [open a new issue](https://github.com/postmanlabs/devrel-content/issues/new/choose)
 - To see the current progress on requests, check the [project board](https://github.com/orgs/postmanlabs/projects/11)
 
 ### Content Types
