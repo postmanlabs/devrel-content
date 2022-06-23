@@ -19,9 +19,8 @@ labelMappings:
   How-To: how-to
   Talk: talk
   Workshop: workshop
-  Supernova: supernova
-  Sponsorship: event-sponsorship
-  Prioritization: event-prioritization
+  Supernova: supernovas
+  Events: events
   Reporting: reporting
-  Postman-Blog: postman-blog
-  Other Program: other
+  Non-profits: non-profits
+  Other Programs: other-programs
