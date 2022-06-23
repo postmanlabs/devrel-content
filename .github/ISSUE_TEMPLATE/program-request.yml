@@ -16,13 +16,10 @@ body:
     label: Program
     multiple: false
     options:
-      - Supernova
-      - Event Sponsorship
-      - Event Prioritization
-      - Postman-Blog
-      - Non-Profit
-      - Reporting (Trip Reports, CfPs, Speaking)
-      - Other Program
+      - Supernovas
+      - Events
+      - Non-Profits
+      - Other Programs
   validations:
     required: true
 - type: dropdown
@@ -31,15 +28,8 @@ body:
     label: Please categorize your Issue by selecting one or more of these types.
     multiple: true
     options:
-      - Interaction
-      - Website 
-      - Promotion
-      - Pipeline
       - Operations
       - Sourcing
-      - Call for Proposals
-      - Trip Reports
-      - Orbit
-      - Looker
+      - Reporting
   validations:
     required: false
