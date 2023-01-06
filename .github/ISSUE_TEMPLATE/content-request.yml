@@ -22,6 +22,7 @@ body:
       - Tutorial
       - Talk
       - Workshop
+      - Release Notes
 - type: dropdown
   id: video-type
   attributes:
