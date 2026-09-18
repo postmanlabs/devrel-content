@@ -9,6 +9,7 @@ env:
 jobs:
   assign_to_project:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     name: Assign issue to project
     steps:
     - name: Assign new issues to Content Project
